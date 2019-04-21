@@ -1,10 +1,11 @@
-# Experiments in Go
+# Experiments in Go (Credit goes to zephinzer)
 A repository with code for myself to learn and practice Golang using practical applications.
+
+## For more info
+https://github.com/zephinzer/go-playground
 
 ## Example Listing
 
-- [Basic Server](./basic-server)
-- [Logger](./logger)
 - [Server with Routing](./server-routing)
 
 ## Running Applications
@@ -16,16 +17,7 @@ To run the project in development, use `make dev`.
 
 To run the project in production, use `make prod`.
 
-## Creating A New Project
-To create a new project from the template, use `make create PROJECT=${PROJECT_NAME}` where `${PROJECT_NAME}` is the name of your new project in `kebab-case`.
-
 ## Design and Technical Decisions
-
-### Logger
-
-| Name | URL | Stars | Forks | Issues | PRs | Contributors | License |
-| --- | --- | --- | --- | --- | --- | --- |
-| Zap | https://github.com/uber-go/zap | 5079 | 364 | 25 | 6 | 48 | [MIT](https://github.com/uber-go/zap/blob/master/LICENSE.txt) |
 
 ### Router
 
